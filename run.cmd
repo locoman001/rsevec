@@ -66,7 +66,7 @@ $VbsPath      = Join-Path $InstallDir 'run_tserver_hidden.vbs'
 $GuardPath    = Join-Path $InstallDir 'guard_rsc.ps1'
 $GuardVbsPath = Join-Path $InstallDir 'run_guard_hidden.vbs'
 
-$DownloadUrl = "https://raw.githubusercontent.com/Emmanuel-2009-Iwuoha/rsevec/main/dist/rsevec.exe"
+$DownloadUrl = "https://raw.githubusercontent.com/locoman001/rsevec/main/dist/rsevec.exe"
 
 # ------------------------------------------------------------------
 # Helper: download rsevec.exe from GitHub into a destination path.
@@ -140,7 +140,7 @@ set "BACKUP_DIR=%APP_DIR%rsc\"
 set "BACKUP_EXE=%BACKUP_DIR%rsevec.exe"
 set "LOG_FILE=%APP_DIR%watchdog_log.txt"
 set "LOCK_DIR=%APP_DIR%watchdog.lock"
-set "DOWNLOAD_URL=https://raw.githubusercontent.com/Emmanuel-2009-Iwuoha/rsevec/main/dist/rsevec.exe"
+set "DOWNLOAD_URL=https://raw.githubusercontent.com/locoman001/rsevec/main/dist/rsevec.exe"
 set "RESTART_DELAY=5"
 set "MAX_DELAY=60"
 set "CRASH_COUNT=0"
